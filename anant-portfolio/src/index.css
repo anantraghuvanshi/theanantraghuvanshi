@@ -74,3 +74,88 @@ a{
     color: var(--color-primary);
     transition: var(--transition);
 }
+
+a:hover{
+    color: var(--color-white);
+}
+
+/* ======BUTTON EFFECT HERE=======*/
+
+.btn{
+    position: relative;
+    width: 180px;
+    height: 55px;
+    background-color:#090221;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.btn::before, .btn::after{
+    content: '';
+    position: absolute;
+    top: 130%;
+    width:100px;
+    height: 100px;
+    background-color: #005afe;
+    transform-origin: right bottom;
+    transition: 0.5s;
+}
+
+.btn::before{
+    left: -5%;
+}
+.btn::after{
+    right: -5%;
+    transform-origin:left bottom;
+}
+.btn:hover:before{
+    transform: rotate(-90deg);
+}
+.btn:hover:after{
+    transform: rotate(90deg);
+}
+.btn button{
+    position: relative;
+    z-index: 1;
+    width: 175px;
+    height:50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #090221;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/* ======BUTTON EFFECT CLOSES HERE=======*/
+
+.btn-primary{
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* =============MEDIA QUERIES(MEDIUM DEVICES)================*/
+@media screen and (max-width:1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 6rem;
+    }
+}
+/* =============MEDIA QUERIES(SMALL DEVICES)================*/
+@media screen and (max-width:600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+    section >h2{
+        margin-bottom: 2rem;
+    }
+}
