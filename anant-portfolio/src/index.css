@@ -94,14 +94,14 @@ a:hover{
     overflow: hidden;
 }
 .btn::before, .btn::after{
-    content: '';
+    content: "";
     position: absolute;
     top: -130%;
-    width:100px;
+    width: 100px;
     height: 100px;
     background-color: #005afe;
     transform-origin: right bottom;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .btn::before{
@@ -121,7 +121,7 @@ a:hover{
     position: relative;
     z-index: 1;
     width: 175px;
-    height:50px;
+    height: 50px;
     border-radius: 30px;
     outline: none;
     border: none;
