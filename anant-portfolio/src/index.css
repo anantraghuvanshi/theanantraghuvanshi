@@ -95,7 +95,7 @@ a:hover{
 .btn::before, .btn::after{
     content: '';
     position: absolute;
-    top: 130%;
+    top: -130%;
     width:100px;
     height: 100px;
     background-color: #005afe;
