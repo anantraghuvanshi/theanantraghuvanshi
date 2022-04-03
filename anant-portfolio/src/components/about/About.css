@@ -59,6 +59,12 @@
     color: var(--color-light);
 }
 
+.about-btn{
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
 /* =============MEDIA QUERIES(MEDIUM DEVICES)================*/
 @media screen and (max-width:1024px){
    .about__container{
