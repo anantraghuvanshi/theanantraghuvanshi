@@ -18,14 +18,14 @@ const portfolio = () => {
           <h3>Chat App using React and Socket</h3>
           <a
             href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Github
           </a>
           <a
             href="https://chat-infinity.netlify.app/"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Live Demo
@@ -38,14 +38,14 @@ const portfolio = () => {
           <h3>ToDo List using Express</h3>
           <a
             href="https://github.com/anantraghuvanshi/todo-list-final"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Github
           </a>
           <a
             href="https://anant-todo-list.herokuapp.com/"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Live Demo
@@ -58,14 +58,14 @@ const portfolio = () => {
           <h3>Weather App</h3>
           <a
             href="https://github.com/anantraghuvanshi/live-weather-forecast"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Github
           </a>
           <a
             href="https://dribbble.com/Alien_pixels"
-            className="btn third"
+            className="btn third about-btn"
             target="_blank"
           >
             Live Demo
