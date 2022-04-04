@@ -1,12 +1,6 @@
-.about-btn{
-    width: 250px;
-    text-align: center;
-    justify-content: center;
-}
-
 .portfolio__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;          
+    grid-template-columns:  repeat( 3, 1fr );
     gap: 2.5rem;
 }
 
@@ -22,5 +16,25 @@
     background: transparent;
 }
 .portfolio__item-image{
-    
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-btn{
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+.myimage{
+    width: 50%;
+  height: auto;
 }

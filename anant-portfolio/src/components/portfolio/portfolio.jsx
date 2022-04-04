@@ -3,6 +3,9 @@ import "./portfolio.css";
 import IMG1 from "../../assets/me.png";
 import IMG2 from "../../assets/me.png";
 import IMG3 from "../../assets/me.png";
+import IMG4 from "../../assets/me.png";
+import IMG5 from "../../assets/me.png";
+import IMG6 from "../../assets/me.png";
 
 const portfolio = () => {
   return (
@@ -13,63 +16,123 @@ const portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG1} alt="" class='myimage' width='1280' height='720' />
           </div>
           <h3>Chat App using React and Socket</h3>
-          <a
-            href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://chat-infinity.netlify.app/"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://chat-infinity.netlify.app/"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <img src={IMG2} alt="" class='myimage' width='480' height='360' />
           </div>
           <h3>ToDo List using Express</h3>
-          <a
-            href="https://github.com/anantraghuvanshi/todo-list-final"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://anant-todo-list.herokuapp.com/"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anantraghuvanshi/todo-list-final"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://anant-todo-list.herokuapp.com/"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt="" class='myimage' width='480' height='360' />
           </div>
           <h3>Weather App</h3>
-          <a
-            href="https://github.com/anantraghuvanshi/live-weather-forecast"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="btn third about-btn"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/anantraghuvanshi/live-weather-forecast" className="btn third about-btn" target="_blank">Github</a>
+            <a href="https://dribbble.com/Alien_pixels" className="btn third about-btn" target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" class='myimage' width='480' height='360' />
+          </div>
+          <h3>Some Project</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://chat-infinity.netlify.app/"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" class='myimage' width='480' height='360' />
+          </div>
+          <h3>Some Project</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://chat-infinity.netlify.app/"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt=""  class='myimage' width='480' height='360'/>
+          </div>
+          <h3>Some Project</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://chat-infinity.netlify.app/"
+              className="btn third about-btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
