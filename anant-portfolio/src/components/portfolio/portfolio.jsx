@@ -13,7 +13,7 @@ const portfolio = () => {
       <h5>Anant's Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className="portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" class='myimage' width='1280' height='720' />
@@ -38,7 +38,7 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" class='myimage' width='480' height='360' />
+            <img src={IMG2} alt=""   />
           </div>
           <h3>ToDo List using Express</h3>
           <div className="portfolio__item-cta">
@@ -60,7 +60,7 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" class='myimage' width='480' height='360' />
+            <img src={IMG3} alt=""   />
           </div>
           <h3>Weather App</h3>
           <div className="portfolio__item-cta">
@@ -70,7 +70,7 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG4} alt="" class='myimage' width='480' height='360' />
+            <img src={IMG4} alt=""   />
           </div>
           <h3>Some Project</h3>
           <div className="portfolio__item-cta">
@@ -92,7 +92,7 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG5} alt="" class='myimage' width='480' height='360' />
+            <img src={IMG5} alt=""   />
           </div>
           <h3>Some Project</h3>
           <div className="portfolio__item-cta">
@@ -114,7 +114,7 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt=""  class='myimage' width='480' height='360'/>
+            <img src={IMG6} alt=""   />
           </div>
           <h3>Some Project</h3>
           <div className="portfolio__item-cta">
