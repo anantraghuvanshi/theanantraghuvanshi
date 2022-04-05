@@ -14,38 +14,38 @@ const data =[
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
-  }
+  },
   {
-    id:1,
-    image: IMG1,
+    id:2,
+    image: IMG2,
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
-  }
+  },
   {
-    id:1,
-    image: IMG1,
+    id:3,
+    image: IMG3,
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
-  }
+  },
   {
-    id:1,
-    image: IMG1,
+    id:4,
+    image: IMG4,
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
-  }
+  },
   {
-    id:1,
-    image: IMG1,
+    id:5,
+    image: IMG5,
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
-  }
+  },
   {
-    id:1,
-    image: IMG1,
+    id:6,
+    image: IMG6,
     title: 'Chat App using React and Socket',
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
@@ -62,28 +62,34 @@ const portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
+      {
+        data.map(({id, image, title, github, demo}) => {
+          return (
+            <article key = {id} className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" width="480" height="360" />
+            <img src={image} alt={title} width="480" height="360" />
           </div>
           <h3>Chat App using React and Socket</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/anantraghuvanshi/chat-app-using-react-socketIO"
+              href={github}
               className="btn third about-btn"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Github
             </a>
             <a
-              href="https://chat-infinity.netlify.app/"
+              href={demo}
               className="btn third about-btn"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Live Demo
             </a>
           </div>
         </article>
+          )
+        })
+        }
       </div>
     </section>
   );
