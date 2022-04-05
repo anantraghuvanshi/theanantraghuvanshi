@@ -55,7 +55,7 @@ const data =[
   
 
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>Anant's Recent Work</h5>
@@ -95,4 +95,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;
