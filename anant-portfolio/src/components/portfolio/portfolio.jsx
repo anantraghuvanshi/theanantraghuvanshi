@@ -7,6 +7,54 @@ import IMG4 from "../../assets/me.png";
 import IMG5 from "../../assets/me.png";
 import IMG6 from "../../assets/me.png";
 
+const data =[
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+  {
+    id:1,
+    image: IMG1,
+    title: 'Chat App using React and Socket',
+    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
+    demo: 'https://chat-infinity.netlify.app/'
+  }
+
+]
+  
+
+
 const portfolio = () => {
   return (
     <section id="portfolio">
