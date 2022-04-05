@@ -13,10 +13,10 @@ const portfolio = () => {
       <h5>Anant's Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="portfolio__container">
+      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" class='myimage' width='1280' height='720' />
+            <img src={IMG1} alt=""  width='480' height='360' />
           </div>
           <h3>Chat App using React and Socket</h3>
           <div className="portfolio__item-cta">
