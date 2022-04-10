@@ -2,7 +2,6 @@
     display: grid;          
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    width: 33%;
 }
 
 .portfolio__item{
