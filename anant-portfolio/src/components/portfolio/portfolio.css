@@ -1,9 +1,10 @@
 .portfolio__container{
     display: grid; 
-    grid: 360px 360px / repeat(3, 360px);         
-    grid-template-columns: repeat(3, 1fr);
+    grid: 700px 700px / repeat(3, 700px);         
+    grid-template-columns: 3;
     justify-content: center;
-    gap: 2.5rem;
+    grid-gap: 30px;
+    margin-top: 120px;
 }
 
 .portfolio__item{
