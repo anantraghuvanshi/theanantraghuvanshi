@@ -3,8 +3,8 @@
     grid: 700px 700px / repeat(3, 700px);         
     grid-template-columns: 3;
     justify-content: center;
-    grid-gap: 30px;
-    margin-top: 120px;
+    gap: 30px;
+    
 }
 
 .portfolio__item{
