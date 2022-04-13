@@ -2,8 +2,9 @@
     display: grid; 
     grid: 700px 700px / repeat(3, 700px);         
     grid-template-columns: 3;
-    justify-content: center;
+    justify-content:safe center;
     gap: 30px;
+
     
 }
 
