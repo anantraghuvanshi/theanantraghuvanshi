@@ -10,8 +10,8 @@
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
 }
-.swiper-pagination-bullet .swiper-pagination-bullet-active{
-    
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
 }
 .testimonial{
     background: var(--color-bg-variant);
