@@ -2,10 +2,19 @@ import React from 'react'
 import './testimonials.css';
 import img1 from '../../assets/me.png';
 
+import {  Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
 
 const data= [
 {
-avalar: img1,
+avatar: img1,
 name: "Tina Saow",
 review: 'Mudi alias animi dolurem aliquam ea eum bealae maiures, conseclelur praesentiun quibusdam, commodi velit porru deserunt explicabo nostrum ducimus quasi?'
 },
@@ -31,20 +40,29 @@ const testimonials = () => {
       <h2>
         Testimonials
       </h2>
-      <div className="container testimonials__container">
+      <Swiper className="container testimonials__container"
+      modules={[ Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+
+      >
         {
           data.map(({avatar, name, review}, index) =>{
-            <article key={index} className="testimonial">
+            return (
+              <SwiperSlide key={index} className="testimonial">
           <div className="client__avatar">
             <img src= {img1} />
           </div>
           <h5 className="client__review">{name}</h5>
             <small className="collegue__review">{review}           
             </small>
-        </article>
+        </SwiperSlide>
+            )
+           
           })
         }
-      </div>
+      </Swiper>
     </section>
   )
 }
