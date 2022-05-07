@@ -1,9 +1,9 @@
-.portfolio__container{
-    display: grid; 
-    grid: 700px 700px / repeat(3, 700px);         
-    grid-template-columns: 3;
-    justify-content:safe center;
-    gap: 30px;
+.container.portfolio__container{
+    width: 75%;
+    display: grid;         
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;                    
 }
 
 .portfolio__item{
