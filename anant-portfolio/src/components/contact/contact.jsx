@@ -15,7 +15,7 @@ const contact = () => {
             <HiOutlineMail />
             <h4>Email</h4>
             <h5>anantsinghraghuvanshi1@gmail.com</h5>
-            <a href="mailto:anantsinghraghuvanshi1@gmail.com">Drop a Mail</a>
+            <a href="https://t.me/sundi0110">Drop a Mail</a>
           </article>
           <article className="contact__option">
             <FaTelegramPlane />
