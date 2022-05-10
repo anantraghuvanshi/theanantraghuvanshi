@@ -24,7 +24,7 @@ const contact = () => {
             <a href="mailto:anantsinghraghuvanshi1@gmail.com">Say Hi on Telegram</a>
           </article>
         </div>
-        <form action=""></form>
+        
       </div>
     </section>
   )
