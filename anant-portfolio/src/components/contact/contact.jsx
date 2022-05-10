@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css';
 import {HiOutlineMail} from 'react-icons/hi';
+import {FaTelegramPlane} from 'react-icons/fa';
 
 const contact = () => {
   return (
@@ -17,10 +18,10 @@ const contact = () => {
             <a href="mailto:anantsinghraghuvanshi1@gmail.com">Drop a Mail</a>
           </article>
           <article className="contact__option">
-            <HiOutlineMail />
+            <FaTelegramPlane />
             <h4>Telegram</h4>
             <h5>Anant Singh Raghuvanshi</h5>
-            <a href="mailto:anantsinghraghuvanshi1@gmail.com">Drop a Mail</a>
+            <a href="mailto:anantsinghraghuvanshi1@gmail.com">Say Hi on Telegram</a>
           </article>
         </div>
         <form action=""></form>
