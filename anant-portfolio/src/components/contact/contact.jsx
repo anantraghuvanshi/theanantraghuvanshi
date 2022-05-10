@@ -12,7 +12,7 @@ const contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <FaTelegramPlane />
+            <FaTelegramPlane className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>Anant Singh Raghuvanshi</h5>
             <a href="mailto:anantsinghraghuvanshi1@gmail.com" target="_blank">
@@ -20,7 +20,7 @@ const contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <HiOutlineMail />
+            <HiOutlineMail classmae= 'contact__option-icon' />
             <h4>Email</h4>
             <h5>anantsinghraghuvanshi1@gmail.com</h5>
             <a href="https://t.me/sundi0110" target="_blank">
