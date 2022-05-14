@@ -2,8 +2,23 @@ import React from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaTelegramPlane } from "react-icons/fa";
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_hfh1tet', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -28,7 +43,7 @@ const contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Full Name" required/>
           <input type="email" name="email" placeholder="Your Email" required/>
           <textarea name="message" placeholder="Type Your Message Here"  rows="7" required></textarea>
@@ -39,4 +54,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
