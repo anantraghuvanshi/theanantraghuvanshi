@@ -67,7 +67,7 @@ const Portfolio = () => {
           return (
             <article key = {id} className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={image} alt={title} width="480" height="360" />
+            <img src={image} alt={title} />
           </div>
           <h3>Chat App using React and Socket</h3>
           <div className="portfolio__item-cta">
