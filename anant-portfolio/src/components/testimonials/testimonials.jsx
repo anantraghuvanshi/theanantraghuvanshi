@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css';
-import img1 from '../../assets/me.png';
+import img1 from '../../assets/jaskaran.jpeg';
 
 import {  Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 const data= [
 {
 avatar: img1,
-name: "Tina Saow",
+name: "Jaskaran, Project Engineer(Wipro)",
 review: 'Mudi alias animi dolurem aliquam ea eum bealae maiures, conseclelur praesentiun quibusdam, commodi velit porru deserunt explicabo nostrum ducimus quasi?'
 },
 {
