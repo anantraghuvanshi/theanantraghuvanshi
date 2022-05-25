@@ -1,5 +1,6 @@
 import React from 'react'
 import './testimonials.css';
+import img1 from '../../assets/vaibhav.PNG';
 import img3 from '../../assets/jaskaran.jpeg';
 
 import {  Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -14,7 +15,7 @@ import 'swiper/css/pagination';
 
 const data= [
 {
-avatar: img3,
+avatar: img1,
 name: "Vaibhav, Software Engineer(Micron)",
 review: 'Mudi alias animi dolurem aliquam ea eum bealae maiures, conseclelur praesentiun quibusdam, commodi velit porru deserunt explicabo nostrum ducimus quasi?'
 },
@@ -52,7 +53,7 @@ const testimonials = () => {
             return (
               <SwiperSlide key={index} className="testimonial">
           <div className="client__avatar">
-            <img src= {img3} />
+            <img src= {avatar} />
           </div>
           <h5 className="client__review">{name}</h5>
             <small className="collegue__review">{review}           
