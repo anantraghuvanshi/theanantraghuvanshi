@@ -7,7 +7,7 @@ import { AiOutlineMedium} from 'react-icons/ai';
 const footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Anant</a>
+      <a href="#" className='footer__logo'>ANANT SINGH RAGHUVANSHI</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
