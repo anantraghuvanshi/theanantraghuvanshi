@@ -20,7 +20,13 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href=""></a>
+        <a href="https://stackoverflow.com/users/17924329/anant-singh-raghuvanshi"><BsStackOverflow/></a>
+        <a href="https://www.instagram.com/theanantraghuvanshi/"><FaInstagram/></a>
+        <a href="https://medium.com/@anantsinghraghuvanshi1"><AiOutlineMedium/></a>
+      </div>
+
+      <div className="footercopyright">
+        <small>&copy; Anant Singh Raghuvanshi. All rights reserved</small>
       </div>
 
     </footer>
