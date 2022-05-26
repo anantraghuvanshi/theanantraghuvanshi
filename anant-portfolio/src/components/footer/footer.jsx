@@ -1,5 +1,8 @@
 import React from 'react'
 import './footer.css';
+import { BsStackOverflow} from 'react-icons/bs';
+import { FaInstagram} from 'react-icons/fa';
+import { AiOutlineMedium} from 'react-icons/ai';
 
 const footer = () => {
   return (
@@ -24,4 +27,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default footer;
