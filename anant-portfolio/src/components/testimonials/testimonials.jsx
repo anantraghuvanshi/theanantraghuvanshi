@@ -3,6 +3,8 @@ import './testimonials.css';
 import img1 from '../../assets/vaibhav.jpeg';
 import img2 from '../../assets/vipul.jpeg';
 import img3 from '../../assets/jaskaran.jpeg';
+import img4 from '../../assets/abhishek.jpeg';
+import img5 from '../../assets/shivam.jpeg';
 
 import {  Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -29,8 +31,17 @@ review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur pra
 avatar: img3,
 name: 'Jaskaran, Project Engineer(Wipro)',
 review: 'Modi alias animi dolorcm aliquam ca cum pcatac maiorcs, consectetur pracsentium quibusdam, commodi velit porro o blanditiis conscquatur qui molestiac. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+},
+{
+  avatar: img4,
+name: 'Abhishek, System Engineer(TCS)',
+review: 'Modi alias animi dolorcm aliquam ca cum pcatac maiorcs, consectetur pracsentium quibusdam, commodi velit porro o blanditiis conscquatur qui molestiac. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+},
+{
+  avatar: img5,
+name: 'Shivam, Project Engineer(Wipro)',
+review: 'Modi alias animi dolorcm aliquam ca cum pcatac maiorcs, consectetur pracsentium quibusdam, commodi velit porro o blanditiis conscquatur qui molestiac. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
 }
-
 ];
 
 const testimonials = () => {
