@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css';
-import img1 from '../../assets/vaibhav.PNG';
+import img1 from '../../assets/vaibhav.jpeg';
 import img2 from '../../assets/vipul.jpeg';
 import img3 from '../../assets/jaskaran.jpeg';
 
